@@ -7,7 +7,7 @@ El codigo recibe un texto y se utiliza ese texto para genera el codigo en HTML p
 
 **El codigo fue compilado en: https://paiza.io/ **
 
-#Renombrando clases
+#CodeSmell 1.- Clases con nombres poco descriptivas han sido renombradas
 
 Ht -> HtmlText (linea 5)
 
@@ -18,7 +18,7 @@ B -> Bold (estilo negrita) (linea 31)
 Basic -> BasicText (texto introducido) (linea 15)
 
 
-#Renombrando atributos y metodos en la clases
+#CodeSmell 2.- Atributos y propiedades con nombres poco descriptivas han sido renombradas
 
 En: Ht -> HtmlText
 
@@ -50,7 +50,7 @@ En: Basic -> BasicText
 	
 	    funcion() -> print(); (Liena 20)
 
-#Atributos publicos fueron cambiados en privados
+#CodeSmell 3.- Atributos publicos fueron cambiados a privados en las clases
 
 En: I -> Italic
 
@@ -65,7 +65,7 @@ En: Basic -> BasicText
         string atributo -> string text;(publico a privado) (Linea 18)
 
 
-#Separando la logica en archivos
+#CodeSmell 4.- Logica aglomerada separada en distintos archivos
 
 Para: Ht -> HtmlText
 
